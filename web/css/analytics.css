@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2016, 8:53:03 PM
+    Author     : Lucas
+*/
+
+.my-modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                50% 50% 
+                no-repeat;
+    
+    background-image: url("../img/ajax-loader.gif");
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+body.loading .my-modal {
+    display: block;
+}
+
+.pager li {
+    display: inline-block;
+}
+
+.chart-title{
+    display: block;
+}
+
+.charts-header{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chart-container{
+    display: none;
+}
+
+.chart{
+    height: 100%;
+}
+
+.centering-div{
+    display: table;
+    margin: 0 auto;
+}
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: relative;
+}
+.loquesea {
+    float: right;
+}
+
+
+li.my-pager {
+    line-height: initial;
+    text-indent: initial;
+}
+
+li.page-counter {
+    margin: 0px 10px;
+    color: #fff;
+}
+
+.panel {
+    border-color: #dddddd !important;
+}
+
+.ct-chart text {
+    font-size: medium;
+}
+
+.ct-label {
+    font-size: small;
+    font-weight: bold;
+}
+
+.search {
+    margin-right:20px;
+}
+
+.del {
+    margin-left:20px;
+}
+
+.seller-brand-color {
+    stroke: #009688;
+    fill: #009688;
+}
+
+.seller-normal-color {
+    stroke: #FFC107;
+    fill: #FFC107;
+}
+
+.condition-new-color {
+    stroke: #00BCD4;
+    fill: #00BCD4;
+}
+
+.condition-used-color {
+    stroke: #CDDC39;
+    fill: #CDDC39;
+}
